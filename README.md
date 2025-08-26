@@ -16,7 +16,7 @@ O projeto está organizado da seguinte forma:
 
 O portfólio pode ser acessado diretamente pelo GitHub Pages no seguinte link:
 
-[https://augustobuin.github.io/Pages-Portfolio]https://augustobuin.github.io/Pages-Portfolio)
+[https://augustobuin.github.io/Pages-Portfolio](https://augustobuin.github.io/Pages-Portfolio)
 
 ## 🛠️ Tecnologias Utilizadas
 
