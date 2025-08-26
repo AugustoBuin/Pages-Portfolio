@@ -16,13 +16,13 @@ O projeto está organizado da seguinte forma:
 
 O portfólio pode ser acessado diretamente pelo GitHub Pages no seguinte link:
 
-[https://fatec-sjc-dsm-portfolio.github.io/ra1461392221018/](https://fatec-sjc-dsm-portfolio.github.io/ra1461392221018/)
+[https://augustobuin.github.io/Pages-Portfolio]https://augustobuin.github.io/Pages-Portfolio)
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML** para a estrutura da página
 - **CSS** para estilização e centralização do conteúdo
-- **JavaScript** (futuramente) para interatividade
+- **JavaScript** para interatividade
 
 ---
 Desenvolvido por **Augusto Henrique Buin** 🚀
