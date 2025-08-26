@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+                content="Portfolio of Augusto Henrique Buin, a Fullstack Software Developer specializing in TypeScript, React, Python, and AI-driven solutions.">
+        <title>Portfolio - Augusto Henrique Buin</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+        <nav class="navbar" aria-label="Main navigation">
+                <div class="container">
+                        <h1 class="logo">Augusto Buin</h1>
+                        <ul class="nav-links">
+                                <li><a href="#aboutme">About</a></li>
+                                <li><a href="#xp">Experience</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+                </div>
+        </nav>
+
+        <section id="aboutme" class="hero">
+                <div class="container">
+                        <h2>Hey There! 👋</h2>
+                        <img src="./assets/me.jpg" alt="Photo of Augusto" class="mainPhoto">
+                        <p><strong>My name's Augusto Henrique Buin</strong>, and I have <strong>22 years</strong>!</p>
+                        <p>I'm currently a <strong>Fullstack Software Developer</strong> at the <strong>6th
+                                        semester</strong> of the
+                                college, where i study <strong>Multiplatform Software Development</strong>. I also am a
+                                <strong>monitor</strong> at the college (<strong>FATEC</strong>), where I develop a
+                                software to collect
+                                <strong>students' data</strong>.
+                        </p>
+                        <p>Before my tech journey began, I graduated from the <strong>National Service for Industrial
+                                        Learning
+                                        (SENAI)</strong> as a <strong>Chemistry Technician</strong>, and did a lot of
+                                <strong>community
+                                        projects</strong> back in high school.
+                        </p>
+                        <p>I'm excited to share my projects and experiences here! <strong>Feel free to contact
+                                        Me!</strong> </p>
+                </div>
+        </section>
+
+        <section id="xp" class="experience">
+                <h2>Technologies I have experience with</h2>
+                <div class="skills-grid">
+                        <div class="skill-card"><i class="fab fa-html5"></i> HTML5 <span>(Advanced)</span></div>
+                        <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS3<span>(Advanced)</span></div>
+                        <div class="skill-card"><i class="fab fa-js"></i> JavaScript<span>(Advanced)</span></div>
+                        <div class="skill-card"><i class="fab fa-react"></i> React<span>(Advanced)</span></div>
+                        <div class="skill-card"><i class="fab fa-node-js"></i> Node.js<span>(Advanced)</span></div>
+                        <div class="skill-card"><i class="fas fa-database"></i> PostgreSQL <span>(Advanced)</span>
+                        </div>
+                        <div class="skill-card"><i class="fab fa-python"></i> Python<span>(Advanced)</span></div>
+                </div>
+        </section>
+
+        <section id="projects" class="projects">
+                <h2 class="title">My Projects</h2>
+                <div class="project-grid">
+
+                        <!-- Monitoria Acadêmica -->
+                        <div class="project-card">
+                                <div class="card-header" onclick="toggleCard(this)">
+                                        <!-- <img src="./assets/bannerMonitoria.png" alt="Monitoria Project"> -->
+                                        <h3>Academic Monitoring</h3>
+                                        <p>Data collection and processing system for students.</p>
+                                        <span class="toggle-icon">+</span>
+                                </div>
+                                <div class="card-body">
+                                        <div class="section">
+                                                <h4>My Role</h4>
+                                                <p>I worked as both Product Owner and Fullstack Developer, leading the
+                                                        development of a student data collection system. I designed
+                                                        modern user interfaces with interactive dashboards, implemented
+                                                        CSV data import and export features, and managed the product
+                                                        backlog and task planning throughout the project.</p><br>
+                                                <p>This system allows administrators to create a set of questions for
+                                                        students to answer. Once completed, the responses are organized
+                                                        and exported for further analysis.
+                                                </p>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Technologies</h4>
+                                                <div class="tags">
+                                                        <span class="tag">Next.js</span>
+                                                        <span class="tag">TypeScript</span>
+                                                        <span class="tag">MongoDB</span>
+                                                        <span class="tag">JavaScript</span>
+                                                        <span class="tag">Axios</span>
+                                                        <span class="tag">Tailwind</span>
+                                                </div>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Repository</h4>
+                                                <p>This project is stored in a private repository, so I'm unable to
+                                                        share the source code.
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- DeskData -->
+                        <div class="project-card">
+                                <div class="card-header" onclick="toggleCard(this)">
+                                        <!-- <img src="./assets/bannerDeskData.png" alt="DeskData Project"> -->
+                                        <h3>DeskData</h3>
+                                        <p>API for data management with NLP integration.</p>
+                                        <span class="toggle-icon">+</span>
+                                </div>
+                                <div class="card-body">
+                                        <div class="section">
+                                                <h4>My Role</h4>
+                                                <p>I worked as a Scrum Master and Backend Developer, overseeing team
+                                                        organization, documentation, and workflow management. I also
+                                                        developed backend functionalities leveraging Natural Language
+                                                        Processing (NLP).</p><br>
+                                                <p>The system imports support team call logs from a file, processes the
+                                                        content using NLP, and presents valuable insights through an
+                                                        interactive dashboard. It also includes a semantic search
+                                                        feature, allowing users to efficiently find relevant call data.
+                                                </p>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Technologies</h4>
+                                                <div class="tags">
+                                                        <span class="tag">Node.js</span>
+                                                        <span class="tag">TypeScript</span>
+                                                        <span class="tag">Python</span>
+                                                        <span class="tag">Express</span>
+                                                        <span class="tag">PostgreSQL</span>
+                                                        <span class="tag">Docker</span>
+                                                </div>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Repository</h4>
+                                                <a href="https://github.com/AugustoBuin/Deskdata-Doc"
+                                                        target="_blank">View on GitHub</a>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- CloudSpark -->
+                        <div class="project-card">
+                                <div class="card-header" onclick="toggleCard(this)">
+                                        <!-- <img src="./assets/bannerCloudSpark.png" alt="CloudSpark Project"> -->
+                                        <h3>CloudSpark</h3>
+                                        <p>Satellite image analysis with AI and interactive maps.</p>
+                                        <span class="toggle-icon">+</span>
+                                </div>
+                                <div class="card-body">
+                                        <div class="section">
+                                                <h4>My Role</h4>
+                                                <p>I worked as a Frontend Developer, implementing an interactive map and
+                                                        download features for satellite images.</p><br>
+                                                <p>This project aims to develop an application that analyzes images from
+                                                        the WPM sensor on CBERS4A. Users select a target area and time
+                                                        range, and an AI-generated mask highlights cloud and cloud
+                                                        shadow coverage on the images. The system offers both a
+                                                        mobile-friendly app and an intuitive web interface for searching
+                                                        and downloading these images. Additionally, it integrates a
+                                                        proprietary, extensively trained AI model to perform the
+                                                        masking.</p>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Technologies</h4>
+                                                <div class="tags">
+                                                        <span class="tag">React</span>
+                                                        <span class="tag">TypeScript</span>
+                                                        <span class="tag">PostgreSQL</span>
+                                                        <span class="tag">Docker</span>
+                                                        <span class="tag">Python</span>
+                                                        <span class="tag">YOLO</span>
+                                                        <span class="tag">Roboflow</span>
+                                                </div>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Repository</h4>
+                                                <a href="https://github.com/AugustoBuin/cloudSpark-documentation.git"
+                                                        target="_blank">View on GitHub</a>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- SimpaTech -->
+                        <div class="project-card">
+                                <div class="card-header" onclick="toggleCard(this)">
+                                        <!-- <img src="./assets/bannerSimpaTech.png" alt="SimpaTech Project"> -->
+                                        <h3>SimpaTech</h3>
+                                        <p>Data processing system for meteorological stations.</p>
+                                        <span class="toggle-icon">+</span>
+                                </div>
+                                <div class="card-body">
+                                        <div class="section">
+                                                <h4>My Role</h4>
+                                                <p>I worked as a Scrum Master, leading team organization using Jira and
+                                                        Confluence, with a focus on DevOps-oriented documentation and
+                                                        workflow automation.</p><br>
+                                                <p>The project involved developing low-cost weather stations equipped
+                                                        with sensors to measure wind direction and speed, rainfall,
+                                                        humidity, temperature, and atmospheric pressure. Data is
+                                                        periodically sent to a server, processed, and displayed on a
+                                                        portal featuring reports and dashboards. This portal not only
+                                                        informs about weather conditions but also highlights the
+                                                        importance of environmental monitoring in natural disaster
+                                                        prevention by generating timely alerts.</p>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Technologies</h4>
+                                                <div class="tags">
+                                                        <span class="tag">React</span>
+                                                        <span class="tag">TypeScript</span>
+                                                        <span class="tag">JavaScript</span>
+                                                        <span class="tag">MySQL</span>
+                                                        <span class="tag">MongoDB</span>
+                                                        <span class="tag">C++</span>
+                                                </div>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Repository</h4>
+                                                <a href="https://github.com/AugustoBuin/Simpatech-Principal.git"
+                                                        target="_blank">View on GitHub</a>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- Beelieve -->
+                        <div class="project-card">
+                                <div class="card-header" onclick="toggleCard(this)">
+                                        <!-- <img src="./assets/bannerBeelieve.png" alt="Beelieve Project"> -->
+                                        <h3>Beelieve</h3>
+                                        <p>Project management platform for complex teams.</p>
+                                        <span class="toggle-icon">+</span>
+                                </div>
+                                <div class="card-body">
+                                        <div class="section">
+                                                <h4>My Role</h4>
+                                                <p>This was my first experience as a Scrum Master. I managed a large
+                                                        team, facilitated agile ceremonies, and adapted workflows to
+                                                        support team members with diverse needs, including ADHD and
+                                                        Autism.
+                                                </p><br>
+                                                <p>This project involves developing software to streamline the
+                                                        management of multidisciplinary teams working on complex
+                                                        projects for a defense industry partner. The software automates
+                                                        the traditionally manual and fragmented processes of project
+                                                        documentation and coordination, based on established
+                                                        methodologies like IPDT (Integrated Product Development Team)
+                                                        and WBS (Work Breakdown Structure). Accessible via an intranet
+                                                        portal, the system enables easier tracking and management of
+                                                        project progress across multiple subsystems and responsible
+                                                        technical managers.</p>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Technologies</h4>
+                                                <div class="tags">
+                                                        <span class="tag">React</span>
+                                                        <span class="tag">Java</span>
+                                                        <span class="tag">Spring</span>
+                                                        <span class="tag">MySQL</span>
+                                                        <span class="tag">MongoDB</span>
+                                                        <span class="tag">Tailwind</span>
+                                                </div>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Repository</h4>
+                                                <a href="https://github.com/AugustoBuin/Beelieve-Principal.git"
+                                                        target="_blank">View on GitHub</a>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- Sabiá -->
+                        <div class="project-card">
+                                <div class="card-header" onclick="toggleCard(this)">
+                                        <!-- <img src="./assets/bannerSabia.png" alt="Sabia Project"> -->
+                                        <h3>Sabiá</h3>
+                                        <p>Grain receiving and inspection system.</p>
+                                        <span class="toggle-icon">+</span>
+                                </div>
+                                <div class="card-body">
+                                        <div class="section">
+                                                <h4>My Role</h4>
+                                                <p>My first experience as a Frontend Developer, where I created user
+                                                        interfaces, implemented business rules for receiving processes,
+                                                        and refined styling.</p><br>
+                                                <p>The project is an entry inspection system to control grain receiving
+                                                        operations in an agribusiness.</p>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Technologies</h4>
+                                                <div class="tags">
+                                                        <span class="tag">React</span>
+                                                        <span class="tag">Node.js</span>
+                                                        <span class="tag">Express</span>
+                                                        <span class="tag">TypeScript</span>
+                                                        <span class="tag">JavaScript</span>
+                                                        <span class="tag">MySQL</span>
+                                                </div>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Repository</h4>
+                                                <a href="https://github.com/AugustoBuin/SabiaApi.git"
+                                                        target="_blank">View on GitHub</a>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- Py.nk -->
+                        <div class="project-card">
+                                <div class="card-header" onclick="toggleCard(this)">
+                                        <!-- <img src="./assets/bannerPynk.png" alt="Pynk Project"> -->
+                                        <h3>Py.nk</h3>
+                                        <p>Internet banking system with transaction management.</p>
+                                        <span class="toggle-icon">+</span>
+                                </div>
+                                <div class="card-body">
+                                        <div class="section">
+                                                <h4>My Role</h4>
+                                                <p>My first experience in software development as a Backend Developer. I
+                                                        developed features related to user account management and agency
+                                                        administration.</p><br>
+                                                <p>Based on client requirements, Py.nk is developing an agile-driven
+                                                        internet banking system featuring core banking functions and an
+                                                        admin interface. The system involves three main roles:</p>
+
+                                                <ul>
+                                                        <li>
+                                                                <strong>Customers (end users)</strong> can request
+                                                                account registration, login,
+                                                                view statements, perform transactions (deposits,
+                                                                withdrawals,
+                                                                transfers) with instant receipts, update their data, and
+                                                                close
+                                                                accounts.
+                                                        </li>
+                                                        <li>
+                                                                <strong>Branch managers</strong> oversee bank branches,
+                                                                perform all customer
+                                                                operations, and additionally approve or reject account
+                                                                opening
+                                                                and data update requests, verify deposits, and request
+                                                                changes
+                                                                to their own data through the general manager.
+                                                        </li>
+                                                        <li>
+                                                                <strong>The general manager</strong> manages branches,
+                                                                branch managers, and the
+                                                                bank’s total funds, alongside all branch manager and
+                                                                customer
+                                                                functionalities.
+                                                        </li>
+                                                </ul>
+
+                                                <p>The system also handles common banking concerns such as decimal
+                                                        rounding and savings interest calculations.</p>
+
+                                        </div>
+                                        <div class="section">
+                                                <h4>Technologies</h4>
+                                                <div class="tags">
+                                                        <span class="tag">Python</span>
+                                                        <span class="tag">Flask</span>
+                                                        <span class="tag">MySQL</span>
+                                                        <span class="tag">JavaScript</span>
+                                                </div>
+                                        </div>
+                                        <div class="section">
+                                                <h4>Repository</h4>
+                                                <a href="https://github.com/AugustoBuin/PynkApi.git"
+                                                        target="_blank">View on GitHub</a>
+                                        </div>
+                                </div>
+                        </div>
+
+                </div>
+        </section>
+
+
+        <div id="projectModal" class="modal">
+                <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <div id="modalBody"></div>
+                </div>
+        </div>
+
+        <!-- Contact Session -->
+        <section id="contact" class="contact">
+                <h2>Contact Me!</h2>
+                <div class="social-links">
+                        <a href="mailto:augusto.henrique.buin@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/augusto-henrique-buin/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/augusto_buin/"><i class="fab fa-instagram"></i></a>
+                </div>
+        </section>
+
+        <!-- Footer Session -->
+        <footer class="footer">
+                <p>"There can be no triumph without loss, No victory without suffering, No freedom without sacrifice." -
+                        J.R.R. Tolkien</p>
+                <p>Fullstack Developer | Open to Opportunities | <a target="_blank"
+                                href="https://github.com/AugustoBuin">GitHub</a></p>
+        </footer>
+        <script src="./script.js"></script>
+
+</body>
+
+</html>
