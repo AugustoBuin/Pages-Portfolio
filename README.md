@@ -8,8 +8,10 @@ O projeto está organizado da seguinte forma:
 
 ```
 /docs
-│── index.html   # Página principal do portfólio
 │── assets/      # Diretório para imagens e outros arquivos
+│── index.html   # Página principal do portfólio
+│── script.js    # JavaScript dos efeitos do portfólio
+│── style.css    # Estilização do portfólio
 ```
 
 ## 🚀 Como Acessar
